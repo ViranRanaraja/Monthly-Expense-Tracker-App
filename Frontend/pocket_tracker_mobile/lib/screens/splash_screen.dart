@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
       nextScreen: const DashboardScreen(),
       splashIconSize: 300.dp,
       duration: 2000,
-      splashTransition: SplashTransition.scaleTransition,
+      splashTransition: SplashTransition.sizeTransition,
       pageTransitionType: PageTransitionType.leftToRightWithFade,
       animationDuration: const Duration(seconds: 1),
     );
